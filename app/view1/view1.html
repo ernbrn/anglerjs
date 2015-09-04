@@ -4,3 +4,30 @@
 	{{trout}}
 </div>
 
+I also caught these awesome things:
+<div ng-repeat="fish in myFish track by $index">
+	<span>{{myFish[$index]}}</span>
+</div>
+What else did you catch today?
+<input ng-model="moreFish"/>
+<button ng-click="addAFish()">
+</button>
+
+<div ng-if="showMe">
+	<img src="http://i.imgur.com/6kGBW01.jpg" class="freakyFish">
+</div>
+
+And now for something different:
+<input ng-model="imageFish"/>
+<div add-fish fishy='imageFish'></div>
+</div>
+<div add-fish fishy='imageFish'></div>
+</div>
+<div add-fish fishy='imageFish'></div>
+</div>
+<div add-fish fishy='imageFish'></div>
+</div>
+<div add-fish fishy='imageFish'></div>
+</div>
+<div add-fish fishy='imageFish'></div>
+</div>
